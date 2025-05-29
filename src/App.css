@@ -1,0 +1,68 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.main_container{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(7, 105, 105);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todo_app{
+  width: 500px;
+  /* min-height: 600px; */
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 20px;
+}
+.heading{
+display: flex;
+justify-content: start;
+align-items: center;
+gap: 10px;
+}
+.heading span{
+  font-size: 20px;
+  color: rgb(0, 119, 255);
+  font-weight: 700;
+}
+.heading img{
+  width: 50px;
+  height: 50px;
+}
+.inputArea{
+  margin-top: 30px;
+  background-color: rgb(235, 166, 76);
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.inputArea input{
+width: 100%;
+background-color: #fff;
+padding: 5px 10px;
+border-radius: 5px;
+}
+.inputArea input:focus{
+  outline: 0;
+  border: 0;
+}
+.inputArea button{
+  background-color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.taskList{
+  margin-top: 20px;
+}
+.taskList li{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
